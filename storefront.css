@@ -1,0 +1,138 @@
+.topBG{
+    background-image: url(https://804cms.workingsystems.com//storage/uploads/00000000055.jpg);
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    margin-left: 5%;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17pt;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.active {
+    background-color: lightyellow;
+
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: black}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+input[type=text] {
+    float: right;
+    margin: 10px;
+    width: 200px;
+    height: 20px;
+    border: solid 2px #333;
+    -webkit-transition: width 60s ease-in-out;
+    transition: width 60s ease-in-out;
+
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+}
+
+.searchTerm {
+    float: left;
+    width: 100%;
+    border: solid 3px darkgray;
+    padding: 5px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+}
+
+.searchTerm:focus {
+    color: black;
+}
+
+button[type=button] {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 34px;
+    border: 1px solid #333;
+    background: #333;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 5%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+}
+
+
