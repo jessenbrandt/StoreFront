@@ -1,6 +1,16 @@
+body {
+    background-color: rgb(245, 236, 236);
+
+}
+
 .search-container {
     float: right;
-    font-size: 15pt;
+    font-size: 19pt;
+  }
+  #search {
+      height: 27px;
+      width: 350;
+      border: solid 1px #333;
   }
 
   .search-container button {
@@ -9,9 +19,10 @@
     margin-top: 3px;
     margin-right: 16px;
     background: darkgray;
-    font-size: 6pt;
-    border: none;
+    font-size: 12pt;
     cursor: pointer;
+    border: none;
+
   
   }
 
@@ -24,28 +35,20 @@ h1 {
     font-weight: bolder;
     font-family: sans-serif;
     font-stretch: ultra-expanded;
-    font-size: 50pt;
-    padding: 0px;
-
-
+    font-size: 80pt;
+    margin-top: 16%;
+    margin-right: 11%;
+    transform: rotate(-3.5deg);
+    text-shadow: -3px 0 black, 0 5px black, 0 5px black, 0 -5px black;
 }
 
 
-body {
-    background-image: url("https://images.unsplash.com/photo-1442327243508-7a95f66f2290?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c67ebd88ee58cc41fc0e9192b362ebf9&auto=format&fit=crop&w=1350&q=80");
+
+.toppage {
+    background-image: url(https://images.pexels.com/photos/912839/pexels-photo-912839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-position: 100%;
-    background-size: 100% 100%;
-    background-color: transparent;
     padding:20px;
 
-
-
-}
-* {
-    font-family: sans-serif;
-    color: #665544;
-    text-align: center;
-    
 }
 
 .article {
@@ -55,25 +58,25 @@ body {
     margin-right: 50px;
     padding: 10px 0px 5px 0px;
 }
-.article {
-    height:100px;
-
+h3 {
+    font-size: 20pt;
 }
 
 #nav {
 
     height: 90px;
-    padding: 10px;
-    margin-top: -100px;
+    padding: 5px;
+    margin-top: -82px;
     margin-left: -25px;
     margin-right: -25px;
 }
 
-ul {
+#nav ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
     padding: 10px
+    
  
 }
 
@@ -98,15 +101,13 @@ li a:hover {
 
 .article {
     color: #333;
-
-
     display: inline-block;
     height: 105px;
-    padding: 10px;
+    padding: 20px;
     font-family: sans-serif;
-    background: rgb(245, 236, 236, .7);
-    border: solid 4px #333;
-    margin-bottom: 25px;
+    background: darkgray transparent;
+    border: solid 2px #333;
+    padding-bottom: 140px;
 }
 
 
@@ -121,25 +122,23 @@ li a:hover {
 
 #feature {
     color: #333;
-     border: solid 4px #333;
-     border-radius: 2em;
-     background: rgb(245, 236, 236, .7);
      text-align: center center;
-     margin-top: -22px;
+     margin-top: -45px;
      padding: 20px;
 }
 
 #feature h2 {
-    font-size: 27pt;
+    font-size: 50pt;
     font-family: sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     padding-bottom: 0px;
 }
 
 #feature p {
-    font-size: 15pt;
+    font-size: 17pt;
     font-family: sans-serif;
     padding-top: 0px;
+    margin-top: -28px;
 }
 
 h4 {
@@ -150,9 +149,11 @@ h4 {
 }
 
 .car {
-    margin-top: 30px;
+    margin-top: 28px;
     width: 100px;
     height: 100px;
+    font-size: 40pt;
+    color: rgb(221, 204, 174);
     position: relative;
     -webkit-animation-name: car;
     -webkit-animation-duration: 10s;
@@ -163,6 +164,10 @@ h4 {
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-direction: alternate;
+}
+
+.video {
+    margin-top: 50px;
 }
 
 @-webkit-keyframes car {
@@ -181,4 +186,7 @@ h4 {
     60%  { left:1200px;}
     80%  { left:1540px; }
     100% { left:1700px;}
+}
+* {
+    text-align: center;
 }
